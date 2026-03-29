@@ -1,0 +1,10 @@
+stage1:
+  system: |
+    Extract relational predicates from the source domain.
+    Avoid attributes like color, size, shape.
+    Output JSON format.
+
+stage3:
+  system: |
+    Map relational predicates to target domain.
+    Generate inference strictly based on structure.
